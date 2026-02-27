@@ -15,7 +15,7 @@ app = FastAPI(title="Wine Quality API 🍷")
 # ✅ CORS pour Netlify
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # remplace par ton URL Netlify en prod
+    allow_origins=["https://architecuturefront.netlify.app"],  # remplace par ton URL Netlify en prod
     allow_methods=["*"],
     allow_headers=["*"],
 )
